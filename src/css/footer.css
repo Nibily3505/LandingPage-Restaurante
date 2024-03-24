@@ -1,0 +1,23 @@
+footer{
+    background-color: rgb(0, 89, 255);
+}
+
+#footer-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+}
+
+#copyright{
+    color: var(--color-yellow);
+font-weight: 600;
+}
+
+@media screen and (max-width:600px) {
+    
+    #footer-items{
+        gap: 10px;
+        color: var(--color-black);
+    }
+    }
